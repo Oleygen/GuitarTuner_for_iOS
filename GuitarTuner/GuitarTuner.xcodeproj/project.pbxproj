@@ -10,7 +10,6 @@
 		5839D5431FB8CCB1003118A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839D5421FB8CCB1003118A4 /* AppDelegate.m */; };
 		5839D5461FB8CCB1003118A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839D5451FB8CCB1003118A4 /* ViewController.m */; };
 		5839D5491FB8CCB1003118A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5839D5471FB8CCB1003118A4 /* Main.storyboard */; };
-		5839D54C1FB8CCB1003118A4 /* GuitarTuner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5839D54A1FB8CCB1003118A4 /* GuitarTuner.xcdatamodeld */; };
 		5839D54E1FB8CCB1003118A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5839D54D1FB8CCB1003118A4 /* Assets.xcassets */; };
 		5839D5511FB8CCB1003118A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5839D54F1FB8CCB1003118A4 /* LaunchScreen.storyboard */; };
 		5839D5541FB8CCB1003118A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839D5531FB8CCB1003118A4 /* main.m */; };
@@ -23,7 +22,6 @@
 		5839D5441FB8CCB1003118A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5839D5451FB8CCB1003118A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5839D5481FB8CCB1003118A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5839D54B1FB8CCB1003118A4 /* GuitarTuner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuitarTuner.xcdatamodel; sourceTree = "<group>"; };
 		5839D54D1FB8CCB1003118A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5839D5501FB8CCB1003118A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5839D5521FB8CCB1003118A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 				5839D54F1FB8CCB1003118A4 /* LaunchScreen.storyboard */,
 				5839D5521FB8CCB1003118A4 /* Info.plist */,
 				5839D5531FB8CCB1003118A4 /* main.m */,
-				5839D54A1FB8CCB1003118A4 /* GuitarTuner.xcdatamodeld */,
 			);
 			path = GuitarTuner;
 			sourceTree = "<group>";
@@ -148,7 +145,6 @@
 				5839D5461FB8CCB1003118A4 /* ViewController.m in Sources */,
 				5839D5431FB8CCB1003118A4 /* AppDelegate.m in Sources */,
 				5839D5541FB8CCB1003118A4 /* main.m in Sources */,
-				5839D54C1FB8CCB1003118A4 /* GuitarTuner.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,19 +324,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		5839D54A1FB8CCB1003118A4 /* GuitarTuner.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5839D54B1FB8CCB1003118A4 /* GuitarTuner.xcdatamodel */,
-			);
-			currentVersion = 5839D54B1FB8CCB1003118A4 /* GuitarTuner.xcdatamodel */;
-			path = GuitarTuner.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 5839D5361FB8CCB1003118A4 /* Project object */;
 }
