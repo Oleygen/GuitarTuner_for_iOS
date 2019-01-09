@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5839D5431FB8CCB1003118A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839D5421FB8CCB1003118A4 /* AppDelegate.m */; };
-		5839D5461FB8CCB1003118A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839D5451FB8CCB1003118A4 /* ViewController.m */; };
 		5839D5491FB8CCB1003118A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5839D5471FB8CCB1003118A4 /* Main.storyboard */; };
 		5839D54E1FB8CCB1003118A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5839D54D1FB8CCB1003118A4 /* Assets.xcassets */; };
 		5839D5511FB8CCB1003118A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5839D54F1FB8CCB1003118A4 /* LaunchScreen.storyboard */; };
-		5839D5541FB8CCB1003118A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839D5531FB8CCB1003118A4 /* main.m */; };
+		F8207A2C21E6A6EA0072AEB1 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8207A2B21E6A6EA0072AEB1 /* Sample.swift */; };
+		F843804721DC22E300A0156C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F843804621DC22E300A0156C /* AppDelegate.swift */; };
+		F843804921DC232100A0156C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F843804821DC232100A0156C /* ViewController.swift */; };
+		F89F127D21DF79F900BC5756 /* InputStreamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F127C21DF79F900BC5756 /* InputStreamManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5839D53E1FB8CCB1003118A4 /* GuitarTuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarTuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5839D5411FB8CCB1003118A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5839D5421FB8CCB1003118A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5839D5441FB8CCB1003118A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5839D5451FB8CCB1003118A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5839D5481FB8CCB1003118A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5839D54D1FB8CCB1003118A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5839D5501FB8CCB1003118A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5839D5521FB8CCB1003118A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5839D5531FB8CCB1003118A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8207A2B21E6A6EA0072AEB1 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		F843804621DC22E300A0156C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F843804821DC232100A0156C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F89F127C21DF79F900BC5756 /* InputStreamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStreamManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +58,14 @@
 		5839D5401FB8CCB1003118A4 /* GuitarTuner */ = {
 			isa = PBXGroup;
 			children = (
-				5839D5411FB8CCB1003118A4 /* AppDelegate.h */,
-				5839D5421FB8CCB1003118A4 /* AppDelegate.m */,
-				5839D5441FB8CCB1003118A4 /* ViewController.h */,
-				5839D5451FB8CCB1003118A4 /* ViewController.m */,
 				5839D5471FB8CCB1003118A4 /* Main.storyboard */,
 				5839D54D1FB8CCB1003118A4 /* Assets.xcassets */,
 				5839D54F1FB8CCB1003118A4 /* LaunchScreen.storyboard */,
 				5839D5521FB8CCB1003118A4 /* Info.plist */,
-				5839D5531FB8CCB1003118A4 /* main.m */,
+				F843804621DC22E300A0156C /* AppDelegate.swift */,
+				F843804821DC232100A0156C /* ViewController.swift */,
+				F8207A2B21E6A6EA0072AEB1 /* Sample.swift */,
+				F89F127C21DF79F900BC5756 /* InputStreamManager.swift */,
 			);
 			path = GuitarTuner;
 			sourceTree = "<group>";
@@ -102,6 +101,7 @@
 				TargetAttributes = {
 					5839D53D1FB8CCB1003118A4 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -142,9 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5839D5461FB8CCB1003118A4 /* ViewController.m in Sources */,
-				5839D5431FB8CCB1003118A4 /* AppDelegate.m in Sources */,
-				5839D5541FB8CCB1003118A4 /* main.m in Sources */,
+				F89F127D21DF79F900BC5756 /* InputStreamManager.swift in Sources */,
+				F8207A2C21E6A6EA0072AEB1 /* Sample.swift in Sources */,
+				F843804721DC22E300A0156C /* AppDelegate.swift in Sources */,
+				F843804921DC232100A0156C /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +279,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J77L9EFZEW;
 				INFOPLIST_FILE = GuitarTuner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oleygen.GuitarTuner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -292,12 +296,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J77L9EFZEW;
 				INFOPLIST_FILE = GuitarTuner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oleygen.GuitarTuner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
