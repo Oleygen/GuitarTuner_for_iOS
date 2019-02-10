@@ -60,6 +60,7 @@ class InputStreamManager
         print(inBuffer.pointee.mAudioDataByteSize)
 
         let samples = extractSamples(from: inBuffer.pointee)
+        
         print(samples)
         AudioQueueEnqueueBuffer(inAq, inBuffer, 0, nil)
     }
