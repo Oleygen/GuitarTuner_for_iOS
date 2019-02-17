@@ -26,43 +26,28 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // create recording session
-        self.recordingSession = AVAudioSession.sharedInstance()
-        
-        do {
-            try self.recordingSession?.setPreferredSampleRate(sampleRate)
-            try self.recordingSession?.setCategory(.record, mode: .measurement)
-            try self.inputStreamManager = InputStreamManager(sampleRate: self.sampleRate, bitsPerChannel: 16)
-
-        } catch
-        {
-            print("error when set values \(error)")
-        }
-        
-        setupNotifications()
+//        createRecordingSession()
+//        // create recording session
+//        setupNotifications()
         
 
         // consider to use AAC Low Complexity Codecs
         // or smt faster with lower br?
         // bit rade mode? CBR/ABR/VBR
         
+        
+        
+        let fft = FFTProcessor()
+//        print("real")
+//        fft.printReal()
+        print("image")
+        fft.printImag()
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        recordingSession?.requestRecordPermission({ [weak self] allowed in
-            if allowed
-            {
-                DispatchQueue.main.async {
-                    self?.button.isEnabled = true
-                }
-                
-            }
-            else
-            {
-                print("user refuse permissions")
-            }
-        })
+//        requestRecordPermission()
     }
     
     
@@ -78,6 +63,36 @@ class ViewController: UIViewController {
         }
         
         
+    }
+    
+    private func createRecordingSession() {
+        self.recordingSession = AVAudioSession.sharedInstance()
+        
+        do {
+            try self.recordingSession?.setPreferredSampleRate(sampleRate)
+            try self.recordingSession?.setCategory(.record, mode: .measurement)
+            try self.inputStreamManager = InputStreamManager(sampleRate: self.sampleRate, bitsPerChannel: 16)
+            
+        } catch
+        {
+            print("error when set values \(error)")
+        }
+    }
+    
+    private func requestRecordPermission() {
+        recordingSession?.requestRecordPermission({ [weak self] allowed in
+            if allowed
+            {
+                DispatchQueue.main.async {
+                    self?.button.isEnabled = true
+                }
+                
+            }
+            else
+            {
+                print("user refuse permissions")
+            }
+        })
     }
     
     
